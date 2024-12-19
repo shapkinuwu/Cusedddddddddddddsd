@@ -18,7 +18,7 @@
             </Label.RenderTransform>
         </Label>
         <Label x:Name="DateLabel" Content=" " Margin="0,212,0,0" Foreground="White" FontFamily="Arial" FontSize="30" RenderTransformOrigin="0.505,0.479" FontWeight="SemiBold" VerticalAlignment="Top" Height="45" HorizontalAlignment="Center" Width="274"/>
-        <Button x:Name="Settings" Content="Настройки" Margin="19,0,0,0" VerticalAlignment="Top" Background="#FF272727" Foreground="White" BorderBrush="#FF272727" FontWeight="Bold" Height="33" FontSize="20" Click="Button_Click" HorizontalAlignment="Left"/>
+        <Button x:Name="Settings" Content="Настройки" Margin="19,0,0,0" VerticalAlignment="Top" Background="#FF272727" Foreground="White" BorderBrush="#FF272727" FontWeight="Bold" Height="33" FontSize="20" Click="Button_ClickSett" HorizontalAlignment="Left"/>
 
     </Grid>
 

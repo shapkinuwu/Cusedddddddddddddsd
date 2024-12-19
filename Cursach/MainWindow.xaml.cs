@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using Cursach;
+using System.Globalization;
 using System.Reflection.Emit;
 using System.Text;
 using System.Windows;
@@ -61,13 +62,11 @@ namespace Desktopcurs
             ClockLabel.Effect = shadowEffect;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_ClickSett(object sender, RoutedEventArgs e)
         {
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new Uri("/Window2.xaml", UriKind.Relative));
+            Window2 sett = new Window2();
+            sett.Show();
         }
-
     }
 }
-
 
